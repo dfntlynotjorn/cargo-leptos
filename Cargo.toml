@@ -46,7 +46,7 @@ anyhow = "1.0"
 libflate = "2"
 log = "0.4"
 flexi_logger = "0.27"
-lightningcss = { version = "1.0.0-alpha.47", features = ["browserslist"] }
+lightningcss = { version = "1.0.0-alpha.55", features = ["browserslist"] }
 tokio = { version = "1.4", default-features = false, features = ["full"] }
 axum = { version = "0.7", features = ["ws"] }
 # not using notify 5.0 because it uses Crossbeam which has an issue with tokio
